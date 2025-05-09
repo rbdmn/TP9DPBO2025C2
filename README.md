@@ -22,15 +22,7 @@ Berikut isi atribut serta deskripsinya
 Keterangan:
 Tabel student ini akan menjadi main table yang berisi semua identitas atau biodata pada mahasiswa. Memiliki foreign key yang merujuk ke table prestasi dan akademik
 
-## 2. Arsitektur MVP + Template
-Di MVC ini mempunyai tiga komponen utama, berikut penjelasan komponen dan fungsinya:
-- Model = Untuk mengelola koneksi ke database dan per-kueri an (MySQL), serta menangani operasi data.
-- View = Untuk tampilan ke user/pengguna, lalu menyediakan template HTML, dan menampilkan data yang diberikan oleh Presenter.
-- Presenter = Menangani logika bisnis (seperti CRUD), menerima input dari View, dan berinteraksi dengan Model untuk mengambil/memperbarui data.
-
-Lalu ada juga satu komponen yaitu Template, template ini adalah file html mentah yang nggak digunakan untuk web browser, tapi diproses dulu oleh kode php di **view**. Contohnya seperti adanya placeholder teks (DATA_TABEL, JUDUL, dll) yang akan diganti dengan data dari presenter atau model.
-
-## 3. Struktur Folder Proyek
+## 2. Struktur Folder Proyek
 ![image](https://github.com/user-attachments/assets/472659cf-1f0f-4bb1-8bbc-cafbf9716a27)
 
 Keterangan:
